@@ -44,73 +44,73 @@
 
     End Sub
 
-    Private Sub txtLength_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtLength.KeyPress
+    'Private Sub txtLength_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtLength.KeyPress
 
-        'Allows only numbers, ".", and the backspace key in the text boxes:
-        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
-                e.KeyChar <> "." AndAlso
-                e.KeyChar <> ControlChars.Back Then
-            e.Handled = True
-        End If
-    End Sub
+    '    'Allows only numbers, ".", and the backspace key in the text boxes:
+    '    If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
+    '            e.KeyChar <> "." AndAlso
+    '            e.KeyChar <> ControlChars.Back Then
+    '        e.Handled = True
+    '    End If
+    'End Sub
 
-    Private Sub txtLength_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtLength.TextChanged
+    'Private Sub txtLength_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtLength.TextChanged
 
-        'Clears the label:
-        lblTotalRolls.Text = ""
+    '    'Clears the label:
+    '    lblTotalRolls.Text = ""
 
-    End Sub
+    'End Sub
 
-    Private Sub txtWidth_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtWidth.KeyPress
+    'Private Sub txtWidth_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtWidth.KeyPress
 
-        'Allows only numbers, ".", and the backspace key in the text boxes:
-        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
-                e.KeyChar <> "." AndAlso
-                e.KeyChar <> ControlChars.Back Then
-            e.Handled = True
-        End If
-    End Sub
+    '    'Allows only numbers, ".", and the backspace key in the text boxes:
+    '    If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
+    '            e.KeyChar <> "." AndAlso
+    '            e.KeyChar <> ControlChars.Back Then
+    '        e.Handled = True
+    '    End If
+    'End Sub
 
-    Private Sub txtWidth_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtWidth.TextChanged
+    'Private Sub txtWidth_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtWidth.TextChanged
 
-        'Clears the label:
-        lblTotalRolls.Text = ""
+    '    'Clears the label:
+    '    lblTotalRolls.Text = ""
 
-    End Sub
+    'End Sub
 
-    Private Sub txtHeight_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtHeight.KeyPress
+    'Private Sub txtHeight_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtHeight.KeyPress
 
-        'Allows only numbers, ".", and the backspace key in the text boxes:
-        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
-                e.KeyChar <> "." AndAlso
-                e.KeyChar <> ControlChars.Back Then
-            e.Handled = True
-        End If
-    End Sub
+    '    'Allows only numbers, ".", and the backspace key in the text boxes:
+    '    If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
+    '            e.KeyChar <> "." AndAlso
+    '            e.KeyChar <> ControlChars.Back Then
+    '        e.Handled = True
+    '    End If
+    'End Sub
 
-    Private Sub txtHeight_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtHeight.TextChanged
+    'Private Sub txtHeight_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtHeight.TextChanged
 
-        'Clears the label:
-        lblTotalRolls.Text = ""
+    '    'Clears the label:
+    '    lblTotalRolls.Text = ""
 
-    End Sub
+    'End Sub
 
-    Private Sub txtRollCoverage_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtRollCoverage.KeyPress
+    'Private Sub txtRollCoverage_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtRollCoverage.KeyPress
 
-        'Allows only numbers, ".", and the backspace key in the text boxes:
-        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
-                e.KeyChar <> "." AndAlso
-                e.KeyChar <> ControlChars.Back Then
-            e.Handled = True
-        End If
-    End Sub
+    '    'Allows only numbers, ".", and the backspace key in the text boxes:
+    '    If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso
+    '            e.KeyChar <> "." AndAlso
+    '            e.KeyChar <> ControlChars.Back Then
+    '        e.Handled = True
+    '    End If
+    'End Sub
 
-    Private Sub txtRollCoverage_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtRollCoverage.TextChanged
+    'Private Sub txtRollCoverage_TextChanged(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtRollCoverage.TextChanged
 
-        'Clears the label:
-        lblTotalRolls.Text = ""
+    '    'Clears the label:
+    '    lblTotalRolls.Text = ""
 
-    End Sub
+    'End Sub
 
 
 End Class

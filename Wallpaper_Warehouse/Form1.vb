@@ -16,6 +16,8 @@
         'Calculates:
         dblArea = dblL * dblW * dblH
         dblSRN = dblArea / dblRC
+        'Add one more roll, just to be safe:
+        dblSRN = dblSRN + 1
 
         Return dblSRN
 

@@ -72,7 +72,7 @@ Partial Class frmMain
         '
         'txtRollCoverage
         '
-        Me.txtRollCoverage.Location = New System.Drawing.Point(291, 123)
+        Me.txtRollCoverage.Location = New System.Drawing.Point(291, 120)
         Me.txtRollCoverage.Name = "txtRollCoverage"
         Me.txtRollCoverage.Size = New System.Drawing.Size(100, 20)
         Me.txtRollCoverage.TabIndex = 4
@@ -80,16 +80,18 @@ Partial Class frmMain
         'lblTotalRolls
         '
         Me.lblTotalRolls.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTotalRolls.Location = New System.Drawing.Point(503, 120)
+        Me.lblTotalRolls.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalRolls.Location = New System.Drawing.Point(503, 117)
         Me.lblTotalRolls.Name = "lblTotalRolls"
         Me.lblTotalRolls.Size = New System.Drawing.Size(100, 23)
         Me.lblTotalRolls.TabIndex = 5
         Me.lblTotalRolls.Text = " "
+        Me.lblTotalRolls.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(500, 107)
+        Me.Label2.Location = New System.Drawing.Point(500, 104)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(60, 13)
         Me.Label2.TabIndex = 6
@@ -98,7 +100,7 @@ Partial Class frmMain
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(288, 107)
+        Me.Label3.Location = New System.Drawing.Point(288, 104)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(77, 13)
         Me.Label3.TabIndex = 7
@@ -133,18 +135,18 @@ Partial Class frmMain
         '
         'btnCalc
         '
-        Me.btnCalc.Location = New System.Drawing.Point(334, 198)
+        Me.btnCalc.Location = New System.Drawing.Point(328, 184)
         Me.btnCalc.Name = "btnCalc"
-        Me.btnCalc.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalc.Size = New System.Drawing.Size(94, 51)
         Me.btnCalc.TabIndex = 11
         Me.btnCalc.Text = "&Calculate"
         Me.btnCalc.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(503, 198)
+        Me.btnExit.Location = New System.Drawing.Point(474, 184)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(94, 51)
         Me.btnExit.TabIndex = 12
         Me.btnExit.Text = "E&xit"
         Me.btnExit.UseVisualStyleBackColor = True
